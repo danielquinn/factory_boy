@@ -23,7 +23,7 @@ factory_boy
 factory_boy is a fixtures replacement based on thoughtbot's `factory_bot <https://github.com/thoughtbot/factory_bot>`_.
 
 As a fixtures replacement tool, it aims to replace static, hard to maintain fixtures
-with easy-to-use factories for complex object.
+with easy-to-use factories for complex objects.
 
 Instead of building an exhaustive test setup with every possible combination of corner cases,
 ``factory_boy`` allows you to use objects customized for the current test,
@@ -109,7 +109,7 @@ Usage
 
 
 Defining factories
-""""""""""""""""""
+"""""""""""""""""
 
 Factories declare a set of attributes used to instantiate an object.
 The class of the object must be defined in the ``model`` field of a ``class Meta:`` attribute:
@@ -345,7 +345,7 @@ factory_boy is distributed under the MIT License.
 Issues should be opened through `GitHub Issues <https://github.com/FactoryBoy/factory_boy/issues/>`_; whenever possible, a pull request should be included.
 Questions and suggestions are welcome on the `mailing-list <mailto:factoryboy@googlegroups.com>`_.
 
-All pull request should pass the test suite, which can be launched simply with:
+All pull requests should pass the test suite, which can be launched simply with:
 
 .. code-block:: sh
 
